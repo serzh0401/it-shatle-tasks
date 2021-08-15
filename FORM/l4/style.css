@@ -1,0 +1,181 @@
+.invalid {
+  background: red;
+  border-color: red;
+}
+
+#error {
+  color: red;
+}
+
+/* task 1 */
+
+#diagram td {
+  vertical-align: bottom;
+  text-align: center;
+  padding: 10px;
+}
+
+#diagram div {
+  margin: auto;
+}
+
+/* Task 5 */
+
+.scrollBtn {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+  font-size: 16px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.centerBtn {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+/* 1 */
+
+#diagram td {
+  vertical-align: bottom;
+  text-align: center;
+  padding: 10px;
+}
+
+#diagram div {
+  margin: auto;
+}
+
+/* 2 */
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+  display: none;
+}
+.shown {
+  display: block;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#user-form {
+  display: inline-block;
+  padding: 10px 10px 10px 70px;
+  width: 200px;
+  border: 1px solid black;
+  background: white url(https://en.js.cx/clipart/prompt.png) no-repeat left 5px;
+  vertical-align: middle;
+}
+
+#form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#form-container:before {
+  display: inline-block;
+  height: 100%;
+  content: '';
+  vertical-align: middle;
+}
+
+.errorAge {
+  background-color: red;
+}
+
+/* #user-form input[name="name"] {
+display: block;
+margin: 5px;
+width: 180px;
+} */
+
+/* 4 */
+.container {
+  width: 450px;
+  height: 500px;
+  background-color: #182134;
+  margin: 250px auto 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.figures {
+  padding: 20px;
+}
+
+.figures__color,
+.figures__size,
+.figures__loc {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+/* 7 */
+.toDoList {
+  width: 350px;
+  height: 400px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin: 250px auto 0 auto;
+}
+
+.title {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.addBtn {
+  background-color: red;
+  padding: 5px 20px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.listElem {
+  background-color: red;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.newElem {
+  width: 200px;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 4px;
+}

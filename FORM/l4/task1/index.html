@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task 1 -->
+    <form name="calculator">
+      <table>
+        <tr>
+          <td>Initial balance:</td>
+          <td>
+            <input name="openingBalance" type="number" value="0" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Expense\Income:</td>
+          <td>
+            <input name="money" type="number" value="0" required />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" value="Expense" name="radioBtn" checked />Expense</td>
+          <td><input type="radio" value="Income" name="radioBtn" />Income</td>
+        </tr>
+        <tr>
+          <td><button class="currentMoneyBtn">Calculate</button></td>
+          <td>Current balance:</td>
+          <th id="currentMoney"></th>
+        </tr>
+      </table>
+    </form>
+
+    <table id="diagram">
+      <td>
+        <div style="background: blue; width: 40px; height: 0" id="heightIncome"></div>
+      </td>
+      <td>
+        <div style="background-color: red; width: 40px; height: 0" id="heightExpense"></div>
+      </td>
+    </table>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="button" value="Add user" id="show-form" />
+    <ul id="users"></ul>
+    <div id="form-container">
+      <form action="#" id="user-form">
+        <fieldset>
+          <div>What is your name?</div>
+        <input type="text" name="name" required />
+        </fieldset>
+        <fieldset>
+          <div>How old are you?</div>
+        <input type="text" name="age" required />
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="Ок" />
+          <input type="button" name="cancel" value="Cancel"/>
+        </fieldset>
+      </form>
+    </div>
+    <div id="overlay"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

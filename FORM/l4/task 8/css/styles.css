@@ -1,0 +1,82 @@
+header .navbar {
+    background-color: #006db3;
+    color: #ffffff;
+    border-radius: 0;
+}
+header .navbar-brand {
+    color: #ffffff;
+}
+.container .btn-group #main-btn {
+    background-color: #006db3;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.form-div {
+    padding: 10px;
+    border: solid #039be5 1px;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    height: 100%;
+}
+
+.label-class {
+    text-align: right;
+    padding-top: 5px;
+}
+
+#form-btn {
+    background-color: #006db3;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 4px;
+    float: right;
+
+}
+
+.inputSearchDiv{
+    margin-top: 20px;
+}
+
+#sort-btn {
+    background-color: #006db3;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius:0 4px 4px 0;
+    float: right;
+}
+.removeIcon {
+    max-height: 24px;
+    float: right;
+    cursor: pointer;
+}
+
+.note {
+    padding-top: 20px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.note h3 {
+    margin-top: 0;
+    color: #006db3;
+    font-weight: bolder;
+}
+
+.note div {
+    padding-left: 0;
+}
+
+.note i {
+    float: right;
+}
+
+.toggle {
+    display: none;
+}
+
+.main-btn-open {
+    border-radius: 4px 4px 0 0!important;
+}
